@@ -1,7 +1,17 @@
+header {
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 37px;
+    padding: 0 5%;
+}
+
 .header {
     display: flex;
-    top: 0;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_logo {
@@ -18,14 +28,15 @@
     width: 28px;
     height: 28px;
 }
-.menu_periods {
+
+.controls {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 70px;
 }
 
-.menu_periods ul {
+.controls__periods {
     list-style: none;
     display: flex;
     justify-content: space-between;
@@ -33,10 +44,12 @@
     gap: 70px;
 }
 
-.menu_periods ul li {
+.controls__periods li {
     cursor: pointer;
 }
 
-.menu_periods img {
+.controls__cart img {
+    width: 24px;
+    height: 24px;
     cursor: pointer;
 }

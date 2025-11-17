@@ -7,13 +7,15 @@ function Header() {
                 <img src="./logo.svg"></img>
                 <p>Lap-shock</p>
             </div>
-            <div className="menu_periods">
-                <ul>
+            <div className="controls">
+                <ul className="controls__periods">
                     <li>Завтрак</li>
                     <li>Обед</li>
                     <li>Ужин</li>
                 </ul>
-                <img src="./cart.svg"></img>
+                <div className="controls__cart">
+                    <img src="./cart.svg"></img>
+                </div>
             </div>
         </header>
     );
