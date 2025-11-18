@@ -1,0 +1,9 @@
+.menu_container {
+    margin-top: 100px;
+    width: 100%;
+
+    display: grid;
+    gap: 15px;
+
+    justify-content: end;
+}
