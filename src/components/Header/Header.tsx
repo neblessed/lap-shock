@@ -5,13 +5,13 @@ function Header() {
         <header className="header">
             <div className="header_logo">
                 <img src="./logo.svg"></img>
-                <p>Lap-shock</p>
+                <p>Lapshok</p>
             </div>
             <div className="controls">
                 <ul className="controls__periods">
-                    <li>Завтрак</li>
-                    <li>Обед</li>
-                    <li>Ужин</li>
+                    <li className="period">Завтрак</li>
+                    <li className="period selected">Обед</li>
+                    <li className="period">Ужин</li>
                 </ul>
                 <div className="controls__cart">
                     <img src="./cart.svg"></img>

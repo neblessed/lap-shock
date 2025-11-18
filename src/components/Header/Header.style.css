@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: flex-end;
 
-    padding-top: 57px;
+    padding-top: 50px;
     z-index: 1000;
 
     width: 100%;
@@ -33,15 +33,23 @@
 }
 
 .controls__periods {
-    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 100px;
 }
 
-.controls__periods li {
+.period {
+    list-style: none;
     cursor: pointer;
+    color: #6b6b6b;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.period.selected {
+    color: #232323;
+    font-weight: 450;
 }
 
 .controls__cart img {
