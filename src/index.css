@@ -1,5 +1,4 @@
 :root {
-    margin: 0 auto;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-weight: 400;
 
@@ -9,9 +8,7 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    width: 100%;
     max-width: 1240px;
-    padding: 0 5%;
+    padding: 0 148px;
+    margin: 0 auto;
 }
