@@ -1,16 +1,15 @@
 import "./MenuItem.style.css";
+import type { MenuItemPropsType } from "./types/MenuItemPropsType";
 
-function MenuItem() {
+function MenuItem(props: MenuItemPropsType) {
     return (
-        <div className="item_containter selected">
+        <div className="item_containter">
             <div className="item_pic">
-                <img src="./food1.png" alt="menu-item" />
+                <img src={props.photo} alt="menu-item" />
             </div>
-            <div className="item_text selected">
-                <span className="item_title">Caviar express</span>
-                <span className="item_description">
-                    Norem ipsum dolor sit amet, consectetur
-                </span>
+            <div className="item_text">
+                <span className="item_title">{props.title}</span>
+                <span className="item_description">{props.description}</span>
             </div>
         </div>
     );
