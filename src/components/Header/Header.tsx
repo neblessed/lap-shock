@@ -3,9 +3,11 @@ import "./Header.style.css";
 function Header() {
     return (
         <header className="header">
-            <div className="header_logo">
-                <img src="./logo.svg"></img>
-                <p>Lapshok</p>
+            <div className="header_logo_container">
+                <a href="/" className="header_logo">
+                    <img src="./logo.svg"></img>
+                    <p>Lapshok</p>
+                </a>
             </div>
             <div className="controls">
                 <ul className="controls__periods">

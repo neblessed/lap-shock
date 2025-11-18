@@ -1,7 +1,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 
     padding-top: 50px;
     z-index: 1000;
@@ -18,11 +18,13 @@
     font-weight: 700;
     font-size: large;
     cursor: pointer;
+    text-decoration: none;
+    color: #232323;
 }
 
 .header_logo img {
-    width: 28px;
-    height: 28px;
+    width: 40px;
+    height: 40px;
 }
 
 .controls {
